@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
 </head>
@@ -17,76 +17,130 @@
 <body>
     <nav id="navbar" class="nav">
         <ul class="nav-list">
-            <li><a href="#welcome-section">About</a></li>
-            <li><a href="#projects">Work</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li class="nav-link"><a href="#welcome-section">About</a></li>
+            <li class="nav-link"><a href="#projects">Work</a></li>
+            <li class="nav-link"><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
     <section id="welcome-section" class="welcome-section">
-        <h1>Hey there! I'm Ramiro</h1>
-        <p>...a web developer</p>
+        <h1 class="title">Ramiro Guillen</h1>
+        <p class="welcome-text">...a web developer</p>
     </section>
 
     <section id="projects" class="projects-section">
-        <h2 class="projects-section-header">My portfolio...</h2>
+        <h2 class="subtitle">My portfolio...</h2>
+
         <div class="projects-container">
+
             <div class="project-card">
-                <a href="https://github.com/ramiroguillen/freeCodeCamp-survey-form" target="_blank"
-                    class="project-tile">
-                    <div class="project-image">
-                        <img src="./images/survey-form-image.png" alt="project" />
+                <div class="project-image">
+                    <img src="./images/allaoeii.jpg" alt="project" />
+                    <div class="project-image_hover">
+                        <a href="https://ramiroguillen.github.io/coderhouse-web-design/" target="_blank">
+                            <div class="project-image_icon">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024"
+                                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </a>
+                        <a href="https://github.com/ramiroguillen/coderhouse-web-design" target="_blank">
+                            <div class="project-image_icon">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024"
+                                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </a>
                     </div>
-                    <p class="project-title">Survey Form</p>
-                </a>
+                </div>
+                <div class="project-content">
+                    <h4 class="project-title">All AoE II</h4>
+                    <p class="text">Informative page for Age of Empires II Definitive Edition. Final Project for
+                        Coderhouse's Web Design Course</p>
+                </div>
             </div>
 
             <div class="project-card">
-                <a href="https://github.com/ramiroguillen/freeCodeCamp-tribute-page" target="_blank"
-                    class="project-tile">
-                    <div class="project-image">
-                        <img src="./images/tribute-page-image.png" alt="project" />
+                <div class="project-image">
+                    <img src="./images/" alt="project" />
+                    <div class="project-image_hover">
+                        <a href="https://ramiroguillen.github.io/coderhouse-javascript/" target="_blank">
+                            <div class="project-image_icon">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024"
+                                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </a>
+                        <a href="https://github.com/ramiroguillen/coderhouse-javascript" target="_blank">
+                            <div class="project-image_icon">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024"
+                                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </a>
                     </div>
-                    <p class="project-title">Tribute Page</p>
-                </a>
+                </div>
+                <div class="project-content">
+                    <h4 class="project-title">JavaScript</h4>
+                    <p class="text">Blah blah blah blah blah blah. Final Project for Coderhouse's JavaScript Course</p>
+                </div>
             </div>
 
             <div class="project-card">
-                <a href="https://github.com/ramiroguillen/freeCodeCamp-technical-documentation" target="_blank"
-                    class="project-tile">
-                    <div class="project-image">
-                        <img src="./images/technical-documentation-image.png" alt="project" />
+                <div class="project-image">
+                    <img src="./images/wonderbotanics.jpeg" alt="project" />
+                    <div class="project-image_hover">
+                        <a href="https://ramiroguillen.github.io/coderhouse-reactjs/" target="_blank">
+                            <div class="project-image_icon">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024"
+                                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M396 512a112 112 0 1 0 224 0 112 112 0 1 0-224 0zm546.2-25.8C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 0 0 0 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM508 688c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </a>
+                        <a href="https://github.com/ramiroguillen/coderhouse-reactjs" target="_blank">
+                            <div class="project-image_icon">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024"
+                                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </a>
                     </div>
-                    <p class="project-title">Technical Documentation</p>
-                </a>
+                </div>
+                <div class="project-content">
+                    <h4 class="project-title">Wonder Botanics</h4>
+                    <p class="text">eCommerce for selling botanics. Final Project for Coderhouse's ReactJS Course</p>
+                </div>
             </div>
 
-            <div class="project-card">
-                <a href="https://github.com/ramiroguillen/freeCodeCamp-product-landing" target="_blank"
-                    class="project-tile">
-                    <div class="project-image">
-                        <img src="./images/product-landing-image.png" alt="project" />
-                    </div>
-                    <p class="project-title">Product Landing</p>
-                </a>
-            </div>
-        </div>
-
-        <button class="show-all-btn">
-            <a href="https://github.com/ramiroguillen" target="_blank">Show all <i class="fas fa-chevron-right"></i></a>
-        </button>
     </section>
 
     <section id="contact" class="contact-section">
-        <div class="contact-section-header">
-            <h2>Want to work together?</h2>
-        </div>
-        <div class="contact-links">
-            <a href="https://facebook.com/freecodecamp" target="_blank" class="contact-details"><i
+        <h2 class="subtitle">Want to work together?</h2>
+        <p class="welcome-text">Contact me here:</p>
+        <div class="contact-list">
+            <a href="https://linkedin.com/in/ramiro-javier-guillen" target="_blank" class="contact-link"><i
                     class="fab fa-linkedin"></i> LinkedIn</a>
-            <a id="profile-link" href="https://github.com/freecodecamp" target="_blank" class="contact-details"><i
+            <a id="profile-link" href="https://github.com/ramiroguillen" target="_blank" class="contact-link"><i
                     class="fab fa-github"></i> GitHub</a>
-            <a href="mailto:ramirojguillen@gmail.com" class="contact-details"><i class="fas fa-at"></i> Send a
+            <a href="mailto:ramirojguillen@gmail.com" class="contact-link"><i class="fas fa-at"></i> Send a
                 mail</a>
         </div>
     </section>
